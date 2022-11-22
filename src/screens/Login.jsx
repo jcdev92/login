@@ -2,7 +2,7 @@ import { StyleSheet , Text , TextInput , View } from "react-native";
 
 export const Login = () => {
     return (
-        <View>
+        <View style={styles.loginContainer}>
             <Text style={styles.title}>Hello</Text>
             <Text style={styles.subTitle}>Sign in to your account</Text>
             <TextInput placeholder="your@email.com" style={styles.inputText}/>
